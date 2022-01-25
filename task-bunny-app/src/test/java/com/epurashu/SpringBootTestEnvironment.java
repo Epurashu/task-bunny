@@ -26,7 +26,7 @@ import com.epurashu.dto.TicketDetailsDTO;
 import com.epurashu.dto.TicketRankDTO;
 import com.epurashu.dto.UsersDTO;
 
-@SpringBootTest(classes = ProjectManagementApplication.class)
+@SpringBootTest(classes = TaskBunnyApplication.class)
 @AutoConfigureMockMvc
 public class SpringBootTestEnvironment
 {

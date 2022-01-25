@@ -25,10 +25,14 @@
         <swagger-codegen-maven-plugin.version>2.4.7</swagger-codegen-maven-plugin.version>
         <docker-maven-plugin.version>0.38.0</docker-maven-plugin.version>
         <swagger-annotations.version>1.5.20</swagger-annotations.version>
-        <mysql-connector-java.version>8.0.27</mysql-connector-java.version>
+
         <commons-lang3.version>3.5</commons-lang3.version>
         <maven-failsafe-plugin.version>2.22.2</maven-failsafe-plugin.version>
         <jakarta.xml.bind.version>2.3.3</jakarta.xml.bind.version>
+
+        <!-- Database driver and version -->
+        <postgresql.driver.version>42.3.1</postgresql.driver.version>
+        <postgresql.database.version>14.1</postgresql.database.version>
 
         <swagger.spec.output>${project.build.directory}/swagger</swagger.spec.output>
         <swagger.ts.templates>${project.basedir}/src/templates/typescript-angular</swagger.ts.templates>

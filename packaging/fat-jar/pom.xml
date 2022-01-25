@@ -28,7 +28,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <fork>true</fork>
-                    <mainClass>com.epurashu.ProjectManagementApplication</mainClass>
+                    <mainClass>com.epurashu.TaskBunnyApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>

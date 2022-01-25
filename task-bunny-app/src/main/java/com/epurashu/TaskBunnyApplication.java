@@ -10,10 +10,10 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EnableJpaRepositories(basePackages = {"com.epurashu"})
 @EntityScan(basePackages = {"com.epurashu"})
 @ComponentScan(basePackages = {"com.epurashu"})
-public class ProjectManagementApplication
+public class TaskBunnyApplication
 {
     public static void main(String[] args)
     {
-        SpringApplication.run(ProjectManagementApplication.class, args);
+        SpringApplication.run(TaskBunnyApplication.class, args);
     }
 }
